@@ -1,0 +1,45 @@
+---
+layout: layouts/base.njk
+title: "Helpful Information"
+---
+
+<div class="content">
+
+   <section class="helpful">
+      {% include "includes/logo.njk" %}
+
+      <h1>Helpful Information</h1>
+
+      <div class="tabs">
+         <ul class="tabs__list">
+            <li data-id="info-1">Restaurants</li>
+            <li data-id="info-2">Rent a car, boat, bike</li>
+            <li data-id="info-3">Tours</li>
+            <li data-id="info-4">Travel</li>
+         </ul>
+         <div class="tabs__content">
+            <div class="tabs__block" style="display: block" id="info-1">
+               <h3>Macondo</h3>
+               <p>Traditional restaurant with probably the best fish in town. Don’t miss the octopus salad and gregada.</p>
+               <h3>Speeza Hvar</h3>
+               <p>Traditional restaurant with probably the best fish in town. Don’t miss the octopus salad and gregada.</p>
+               <h3>Dalmatino</h3>
+               <p>Creative kitchen with mixture of traditional dishes and modern cuisine.</p>
+               <h3>Calavanda</h3>
+               <p>A posh bar with great cocktails and lovely terrace on the stairs next to the market.</p>
+               <h3>Teraza</h3>
+               <p>Situated above the Arsenal on the terrace next to the theatre entrance. Probably the most beautiful spot in town with the magnificent views over the main square.</p>
+            </div>
+
+            <div class="tabs__block" id="info-2">Info 2</div>
+
+            <div class="tabs__block" id="info-3">Info 3</div>
+
+            <div class="tabs__block" id="info-4">Info 4</div>
+         </div>
+      </div>
+   </section>
+
+   {% include "includes/apartments-block.njk" %}
+   
+</div>

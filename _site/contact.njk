@@ -1,0 +1,71 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="content">
+
+   <section class="jumbo" style="background-image: url(/images/placeholder2.jpg)">
+      {% include "includes/logo.njk" %}
+
+      <h1 class="jumbo__title">Location<br>& Contact</h1>
+   </section>
+
+   <section class="contact">
+      <div class="contact__text">
+         <div class="contact__intro">
+            <p>Situated in the centre of Hvar, 20 meters from the beach with imposing views overlooking Franciscan monastery.</p>
+            <a href="#" class="link">Share</a>
+         </div>
+
+         <div class="contact__info">
+            <div class="block">
+               <p>Love Hvar Apartments</p>
+               <p>Kroz Burak, 44</p>
+               <p>Hvar (Croatia)</p>
+            </div>
+
+            <div class="block">
+               <p><a href="mailto:{{ settings.mail }}">{{ settings.mail }}</a></p>
+               <p>T. 677 999 222</p>
+               <p><a href="#">Facebook</a></p>
+               <p><a href="#">Instagram</a></p>
+            </div>
+         </div>
+         
+         <img src="/images/contact-svg.png" alt="">
+         
+      </div>
+
+      <div class="tabs tabs--contact">
+         <ul class="tabs__list">
+            <li class="helvetica" data-id="info-1">How to arrive Hvar</li>
+            <li data-id="info-2">By car</li>
+            <li data-id="info-3">From Catamarán</li>
+            <li data-id="info-4">From Ferry</li>
+         </ul>
+         <div class="tabs__content">
+            <div class="tabs__block" style="display: block" id="info-1">
+               <h3>Macondo</h3>
+               <p>Traditional restaurant with probably the best fish in town. Don’t miss the octopus salad and gregada.</p>
+               <h3>Speeza Hvar</h3>
+               <p>Traditional restaurant with probably the best fish in town. Don’t miss the octopus salad and gregada.</p>
+               <h3>Dalmatino</h3>
+               <p>Creative kitchen with mixture of traditional dishes and modern cuisine.</p>
+               <h3>Calavanda</h3>
+               <p>A posh bar with great cocktails and lovely terrace on the stairs next to the market.</p>
+               <h3>Teraza</h3>
+               <p>Situated above the Arsenal on the terrace next to the theatre entrance. Probably the most beautiful spot in town with the magnificent views over the main square.</p>
+            </div>
+
+            <div class="tabs__block" id="info-2">Info 2</div>
+
+            <div class="tabs__block" id="info-3">Info 3</div>
+
+            <div class="tabs__block" id="info-4">Info 4</div>
+         </div>
+      </div>
+   </section>
+
+   {% include "includes/apartments-block.njk" %}
+   
+</div>
