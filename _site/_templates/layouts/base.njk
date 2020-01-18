@@ -10,12 +10,16 @@
 </head>
 
 <body>
-   
+
+  <div class="container-fluid">
+
    {% include "includes/nav.njk" %}
 
    {{ content | safe }}
 
    {% include "includes/footer.njk" %}
+
+  </div>
 
    <script  src="/js/bundle.js"></script>
 </body>

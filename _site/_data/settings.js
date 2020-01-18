@@ -1,5 +1,5 @@
 module.exports = {
-   siteName: 'Love Hvar',
-   mail: 'info@lovehvar.com',
+   siteName: 'Modular Multiespazo',
+   mail: 'info@somosmodular.com',
    copyright: 'Love Hvar 2019 – Photographs: Daniel Riera'
 }
