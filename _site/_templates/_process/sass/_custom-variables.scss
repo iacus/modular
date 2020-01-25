@@ -6,6 +6,9 @@ $display2-size:               4rem !default;
 $display3-size:               3rem !default;
 $display4-size:               2rem !default;
 
+$spacer: 1rem !default;
+$spacers: () !default;
+
 $spacers: map-merge(
   (
     0: 0,
