@@ -1,10 +1,20 @@
 $black: #000;
+$cream:   #F7F3ED !default;
 $primary: $black;
+$secondary:     $cream !default;
+
+
 
 $display1-size:               5rem !default;
 $display2-size:               4rem !default;
 $display3-size:               3rem !default;
 $display4-size:               2rem !default;
+
+$display-1-line-height: 1;
+
+$font-weight-normal:          300 !default;
+
+// $grid-gutter-width:           20px !default;
 
 $spacer: 1rem !default;
 $spacers: () !default;
@@ -23,3 +33,23 @@ $spacers: map-merge(
   ),
   $spacers
 );
+
+$container-max-widths: (
+  sm: 540px,
+  md: 900px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+$headings-font-weight: 300 !default;
+
+$font-weight-bolder:          700 !default;
+
+$enable-responsive-font-sizes:    true !default;
+
+
+$card-border-width:                 0px !default;
+$card-border-radius:                0rem !default;
+
+$card-columns-count:                3 !default;
+$card-columns-gap:                  2rem !default;
