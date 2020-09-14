@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>{{ settings.siteName }} - {{ settings.siteDescription }}</title>
+   <link rel="stylesheet" href="/css/style.css">
+   <meta itemprop="description" content="Espacio de coworking en Santiago de Compostela con acceso 24/7 para los miembros, fibra óptica de alta velocidad, cocina y terraza con vistas a la catedral.">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+   {% include "includes/nav.njk" %}
+
+   {{ content | safe }}
+
+   {% include "includes/footer.njk" %}
+
+  </div>
+
+   <script  src="/js/bundle.js"></script>
+</body>
+
+</html>
