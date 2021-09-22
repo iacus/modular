@@ -13,6 +13,13 @@
    }
 }
 
+.navbar-collapse {
+  display: none;
+  @include media-breakpoint-up(sm) {
+      display: block;
+   }
+}
+
 th {
   font-weight: 300;
 }
