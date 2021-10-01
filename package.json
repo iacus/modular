@@ -21,7 +21,8 @@
     "smooth-scroll": "^16.1.2"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.7.8",
     "@babel/core": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
     "babel-loader": "^8.0.6",
